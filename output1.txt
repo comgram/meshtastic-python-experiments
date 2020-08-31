@@ -1,0 +1,610 @@
+File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+Received: {'from': 306188336, 'to': 3520921116, 'decoded': {'position': {'altitude': 125, 'latitudeI': 436773061, 'longitudeI': -717879903, 'latitude': 43.677306099999996, 'longitude': -71.78799029999999}, 'wantResponse': True}, 'id': 758320602, 'rxSnr': 9.25, 'hopLimit': 3, 'fromId': '!a4cf12401030', 'toId': '!f008d1dcfe1c'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+Received: {'from': 306188336, 'to': 3520921116, 'decoded': {'position': {'altitude': 125, 'latitudeI': 436773061, 'longitudeI': -717879903, 'latitude': 43.677306099999996, 'longitude': -71.78799029999999}, 'wantResponse': True}, 'id': 758320603, 'rxSnr': 13.5, 'hopLimit': 3, 'fromId': '!a4cf12401030', 'toId': '!f008d1dcfe1c'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+Received: {'from': 306188336, 'to': 3520921116, 'decoded': {'position': {'altitude': 125, 'latitudeI': 436773061, 'longitudeI': -717879903, 'latitude': 43.677306099999996, 'longitude': -71.78799029999999}, 'wantResponse': True}, 'id': 758320604, 'rxSnr': 10.25, 'hopLimit': 3, 'fromId': '!a4cf12401030', 'toId': '!f008d1dcfe1c'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+Received: {'from': 306188336, 'to': 3520921116, 'decoded': {'position': {'altitude': 125, 'latitudeI': 436773061, 'longitudeI': -717879903, 'latitude': 43.677306099999996, 'longitude': -71.78799029999999}, 'wantResponse': True}, 'id': 758320605, 'rxSnr': 10.75, 'hopLimit': 3, 'fromId': '!a4cf12401030', 'toId': '!f008d1dcfe1c'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+Received: {'from': 306188336, 'to': 3520921116, 'decoded': {'position': {'altitude': 125, 'latitudeI': 436773061, 'longitudeI': -717879903, 'latitude': 43.677306099999996, 'longitude': -71.78799029999999}, 'wantResponse': True}, 'id': 758320607, 'rxSnr': 10.75, 'hopLimit': 3, 'fromId': '!a4cf12401030', 'toId': '!f008d1dcfe1c'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+Received: {'from': 306188336, 'to': 4294967295, 'decoded': {'data': {'typ': 'CLEAR_TEXT', 'payload': 'dGVzdDE=', 'text': 'test1'}}, 'id': 2204634410, 'rxSnr': 11.0, 'hopLimit': 1, 'fromId': '!a4cf12401030', 'toId': '^all'}
+message: test1
+Sending reply:  got msg 'test1' with rxSnr: 11.0 and hopLimit: 1
+Received: {'from': 306188336, 'to': 4294967295, 'decoded': {'position': {'latitudeI': 436766864, 'longitudeI': -717873895, 'latitude': 43.6766864, 'longitude': -71.7873895}, 'wantResponse': True}, 'id': 758320609, 'rxSnr': 10.5, 'fromId': '!a4cf12401030', 'toId': '^all'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+Received: {'from': 306188336, 'to': 4294967295, 'decoded': {'position': {'altitude': 149, 'latitudeI': 436844352, 'longitudeI': -717689542, 'latitude': 43.684435199999996, 'longitude': -71.7689542}, 'wantResponse': True}, 'id': 758320610, 'rxSnr': 11.5, 'fromId': '!a4cf12401030', 'toId': '^all'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+Received: {'from': 306188336, 'to': 4294967295, 'decoded': {'position': {'altitude': 148, 'latitudeI': 436776054, 'longitudeI': -717876125, 'latitude': 43.6776054, 'longitude': -71.7876125}, 'wantResponse': True}, 'id': 758320611, 'rxSnr': 2.75, 'fromId': '!a4cf12401030', 'toId': '^all'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+Received: {'from': 306188336, 'to': 4294967295, 'decoded': {'position': {'altitude': 150, 'latitudeI': 436781509, 'longitudeI': -717879291, 'latitude': 43.6781509, 'longitude': -71.7879291}, 'wantResponse': True}, 'id': 758320613, 'rxSnr': 5.0, 'fromId': '!a4cf12401030', 'toId': '^all'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+Received: {'from': 306188336, 'to': 4294967295, 'decoded': {'data': {'typ': 'CLEAR_TEXT', 'payload': 'dGVzdDI=', 'text': 'test2'}}, 'id': 2204634411, 'rxSnr': 0.25, 'hopLimit': 1, 'fromId': '!a4cf12401030', 'toId': '^all'}
+message: test2
+Sending reply:  got msg 'test2' with rxSnr: 0.25 and hopLimit: 1
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'position': {'altitude': 164, 'latitudeI': 436786049, 'longitudeI': -717877391, 'latitude': 43.678604899999996, 'longitude': -71.7877391}, 'wantResponse': True}, 'id': 875541949, 'rxSnr': -12.5, 'fromId': None, 'toId': '^all'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+Received: {'from': 306188336, 'to': 3520921116, 'decoded': {'user': {'id': '!a4cf12401030', 'longName': 'Unknown 1030', 'shortName': '?30', 'macaddr': 'pM8SQBAw'}, 'wantResponse': True}, 'id': 975165049, 'rxSnr': 8.5, 'hopLimit': 3, 'fromId': '!a4cf12401030', 'toId': '!f008d1dcfe1c'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'position': {'latitudeI': 436767066, 'longitudeI': -717873729, 'latitude': 43.676706599999996, 'longitude': -71.7873729}, 'wantResponse': True}, 'id': 875541952, 'rxSnr': -9.0, 'fromId': None, 'toId': '^all'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 3520921116, 'decoded': {'position': {'latitudeI': 436767066, 'longitudeI': -717873729, 'latitude': 43.676706599999996, 'longitude': -71.7873729}, 'wantResponse': True}, 'id': 875541954, 'rxSnr': -15.0, 'hopLimit': 3, 'fromId': None, 'toId': '!f008d1dcfe1c'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 3520921116, 'decoded': {'position': {'latitudeI': 436767066, 'longitudeI': -717873729, 'latitude': 43.676706599999996, 'longitude': -71.7873729}, 'wantResponse': True}, 'id': 875541956, 'rxSnr': -9.75, 'hopLimit': 3, 'fromId': None, 'toId': '!f008d1dcfe1c'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 3520921116, 'decoded': {'position': {'latitudeI': 436767066, 'longitudeI': -717873729, 'latitude': 43.676706599999996, 'longitude': -71.7873729}, 'wantResponse': True}, 'id': 875541960, 'rxSnr': -14.75, 'hopLimit': 3, 'fromId': None, 'toId': '!f008d1dcfe1c'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 3520921116, 'decoded': {'position': {'latitudeI': 436767066, 'longitudeI': -717873729, 'latitude': 43.676706599999996, 'longitude': -71.7873729}, 'wantResponse': True}, 'id': 875541968, 'rxSnr': -2.5, 'hopLimit': 3, 'fromId': None, 'toId': '!f008d1dcfe1c'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+Received: {'from': 306188336, 'to': 3520921116, 'decoded': {'user': {'id': '!a4cf12401030', 'longName': 'Unknown 1030', 'shortName': '?30', 'macaddr': 'pM8SQBAw'}, 'wantResponse': True}, 'id': 975165065, 'rxSnr': 9.0, 'hopLimit': 3, 'fromId': '!a4cf12401030', 'toId': '!f008d1dcfe1c'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 3520921116, 'decoded': {'position': {'latitudeI': 436767066, 'longitudeI': -717873729, 'latitude': 43.676706599999996, 'longitude': -71.7873729}, 'wantResponse': True}, 'id': 875541970, 'rxSnr': -5.25, 'hopLimit': 3, 'fromId': None, 'toId': '!f008d1dcfe1c'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'data': {'typ': 'CLEAR_TEXT', 'payload': 'dGVzdDQ=', 'text': 'test4'}}, 'id': 2204634413, 'rxSnr': -11.25, 'hopLimit': 1, 'fromId': None, 'toId': '^all'}
+message: test4
+Sending reply:  got msg 'test4' with rxSnr: -11.25 and hopLimit: 1
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'data': {'typ': 'CLEAR_TEXT', 'payload': 'dGVzdDU=', 'text': 'test5'}}, 'id': 2204634414, 'rxSnr': -11.75, 'hopLimit': 1, 'fromId': None, 'toId': '^all'}
+message: test5
+Sending reply:  got msg 'test5' with rxSnr: -11.75 and hopLimit: 1
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'position': {'altitude': 168, 'latitudeI': 436785284, 'longitudeI': -717877330, 'latitude': 43.6785284, 'longitude': -71.787733}, 'wantResponse': True}, 'id': 875541976, 'rxSnr': -5.25, 'fromId': None, 'toId': '^all'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'data': {'typ': 'CLEAR_TEXT', 'payload': 'dGVzdDY=', 'text': 'test6'}}, 'id': 2204634415, 'rxSnr': -4.0, 'hopLimit': 1, 'fromId': None, 'toId': '^all'}
+message: test6
+Sending reply:  got msg 'test6' with rxSnr: -4.0 and hopLimit: 1
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'data': {'typ': 'CLEAR_TEXT', 'payload': 'dGVzdDc=', 'text': 'test7'}}, 'id': 2204634416, 'rxSnr': 3.0, 'hopLimit': 1, 'fromId': None, 'toId': '^all'}
+message: test7
+Sending reply:  got msg 'test7' with rxSnr: 3.0 and hopLimit: 1
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'position': {'latitudeI': 436444755, 'longitudeI': -717219972, 'latitude': 43.6444755, 'longitude': -71.72199719999999}, 'wantResponse': True}, 'id': 875541979, 'rxSnr': 0.5, 'fromId': None, 'toId': '^all'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'position': {'latitudeI': 436795963, 'longitudeI': -717885985, 'latitude': 43.6795963, 'longitude': -71.78859849999999}, 'wantResponse': True}, 'id': 875541980, 'rxSnr': -16.25, 'fromId': None, 'toId': '^all'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'data': {'typ': 'CLEAR_TEXT', 'payload': 'dHJzdDg=', 'text': 'trst8'}}, 'id': 2204634417, 'rxSnr': 9.25, 'fromId': None, 'toId': '^all'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'hopLimit'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 12, in onReceive
+    hopLimit = packet['hopLimit']
+KeyError: 'hopLimit'
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'data': {'typ': 'CLEAR_TEXT', 'payload': 'dGVzdDk=', 'text': 'test9'}}, 'id': 2204634418, 'rxSnr': 8.5, 'fromId': None, 'toId': '^all'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'hopLimit'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 12, in onReceive
+    hopLimit = packet['hopLimit']
+KeyError: 'hopLimit'
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'data': {'typ': 'CLEAR_TEXT', 'payload': 'dGVzdDEw', 'text': 'test10'}}, 'id': 2204634419, 'rxSnr': -6.25, 'hopLimit': 1, 'fromId': None, 'toId': '^all'}
+message: test10
+Sending reply:  got msg 'test10' with rxSnr: -6.25 and hopLimit: 1
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'position': {'latitudeI': 436767017, 'longitudeI': -717873740, 'latitude': 43.676701699999995, 'longitude': -71.787374}, 'wantResponse': True}, 'id': 875541986, 'rxSnr': -1.25, 'fromId': None, 'toId': '^all'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'position': {'altitude': 155, 'latitudeI': 436786061, 'longitudeI': -717877270, 'latitude': 43.678606099999996, 'longitude': -71.787727}, 'wantResponse': True}, 'id': 875541987, 'rxSnr': 5.75, 'fromId': None, 'toId': '^all'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+ERROR:root:Node not found for fromId
+Received: {'from': 3520888364, 'to': 4294967295, 'decoded': {'data': {'typ': 'CLEAR_TEXT', 'payload': 'dGVzdDEx', 'text': 'test11'}}, 'id': 2204634420, 'rxSnr': 3.0, 'hopLimit': 1, 'fromId': None, 'toId': '^all'}
+message: test11
+Sending reply:  got msg 'test11' with rxSnr: 3.0 and hopLimit: 1
+Received: {'from': 306188336, 'to': 4294967295, 'decoded': {'user': {'id': '!a4cf12401030', 'longName': 'Unknown 1030', 'shortName': '?30', 'macaddr': 'pM8SQBAw'}}, 'id': 1320393803, 'rxSnr': -2.5, 'hopLimit': 3, 'fromId': '!a4cf12401030', 'toId': '^all'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+Received: {'from': 306188336, 'to': 4294967295, 'decoded': {'user': {'id': '!a4cf12401030', 'longName': 'Unknown 1030', 'shortName': '?30', 'macaddr': 'pM8SQBAw'}}, 'id': 1332451220, 'rxSnr': 10.5, 'hopLimit': 3, 'fromId': '!a4cf12401030', 'toId': '^all'}
+ERROR:root:Error handling FromRadio, possibly corrupted? 'data'
+Traceback (most recent call last):
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 475, in __reader
+    self._handleFromRadio(self._rxBuf[HEADER_LEN:])
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 226, in _handleFromRadio
+    self._handlePacketFromRadio(fromRadio.packet)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 320, in _handlePacketFromRadio
+    pub.sendMessage(topic, packet=asDict, interface=self)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/publisher.py", line 216, in sendMessage
+    topicObj.publish(**msgData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 452, in publish
+    self.__sendMessage(msgData, topicObj, msgDataSubset)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/topicobj.py", line 482, in __sendMessage
+    listener(data, self, allData)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/pubsub/core/listener.py", line 237, in __call__
+    cb(**kwargs)
+  File "testreply.py", line 10, in onReceive
+    msg = packet['decoded']['data']['text']
+KeyError: 'data'
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/home/dwblair/.local/lib/python3.6/site-packages/serial/serialposix.py", line 501, in read
+    'device reports readiness to read but returned no data '
+serial.serialutil.SerialException: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dwblair/gitwork/Meshtastic-python/meshtastic/__init__.py", line 444, in __reader
+    b = self.stream.read(1)
+  File "/home/dwblair/.local/lib/python3.6/site-packages/serial/serialposix.py", line 509, in read
+    raise SerialException('read failed: {}'.format(e))
+serial.serialutil.SerialException: read failed: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+
